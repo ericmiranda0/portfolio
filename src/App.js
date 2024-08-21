@@ -10,14 +10,14 @@ function App() {
       <div className="bg">
         <Navbar />
         <div className="container">
-          <div className="row align-items-center ">
-            <div className="col icon-redes " data-bs-toggle="collapse">
+          <div className="row align-items-center justify-content-center ">
+            <div className="col icon-redes ">
               <Redes />
             </div>
-            <div className="col-11 main ">
+            <div className="col-12 col-md-11 main ">
               <Main />
             </div>
-            <div className="containe">
+            <div className="containe d-flex justify-content-center mt-3">
               <Button />
             </div>
           </div>
