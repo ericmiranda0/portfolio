@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse  " id="navbarNavAltMarkup">
               <div className="navbar-nav">
                 <a className="nav-link " aria-current="page" href="/">
-                  <img src={email} alt="" />
+                  <img src={email} alt="mailto:ericmirandajob@gmail.com" />
                   ericmirandajob@gmail.com
                 </a>
                 <a className="nav-link" href="/">
