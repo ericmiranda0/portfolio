@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Aeonik";
+  src: url(../assets/font/New-Aeonik-Trials/AeonikTRIAL-Regular.otf)
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar {
+  font-family: "Aeonik", sans-serif;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #f5eee6;
+}
+img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  align-items: flex-start;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+}
+.nav-link {
+  margin-left: 40px;
+  color: #f5eee6;
+}
+.nav-link:hover {
+  color: #6a7c57;
+}
+a:hover {
+  color: #6a7c57;
+}

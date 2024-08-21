@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Aeonik";
+  src: url(../assets/font/New-Aeonik-Trials/AeonikTRIAL-Regular.otf)
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main {
+  padding-right: 200px;
+  font-family: "Aeonik", sans-serif;
+  color: #f5eee6;
+  align-content: center;
+}
+.title {
+  font-size: 80px;
+}
+.text {
+  font-size: 19px;
+}

@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../src/assets/img/Claude-Joseph_Vernet_-_A_Storm_on_a_Mediterranean_Coast_-_Google_Art_Project\ 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; /* Garantir que nada saia dos limites da body */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin-top: 100px;
+  height: 500px;
+
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.containe {
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icon-redes {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Centraliza os ícones verticalmente */
+  justify-content: center; /* Centraliza os ícones horizontalmente */
+  height: 100%; /* Ocupa toda a altura da coluna */
+}
+.main {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 100%;
 }
