@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 🌟 Mako's Dev Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Bem-vindo ao meu portfólio!**  
+Este é o espaço onde a criatividade encontra a tecnologia. Explore e descubra como transformo ideias em experiências digitais incríveis.
 
-## Available Scripts
+## 🛠️ Sobre Mim
 
-In the project directory, you can run:
+Olá! Sou Mako, um desenvolvedor apaixonado por criar soluções que combinam inovação, funcionalidade e estética. Com uma sólida experiência em **React**, **TypeScript**, **PHP** e **MySQL**, estou sempre buscando novas maneiras de expandir meus horizontes e trazer algo único para cada projeto. Além de programação, sou um entusiasta de arte, motos antigas, e tudo que envolva design criativo.
 
-### `npm start`
+- 💻 **Front-End**: React, JavaScript (ES6+), TypeScript, HTML5, CSS3, Bootstrap
+- 🛠️ **Back-End**: PHP, MySQL, Node.js
+- 🎨 **Design**: UX/UI, Figma, Adobe XD
+- 🌍 **Linguagens**: Português, Inglês
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Projetos em Destaque
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🚀 [Projeto 1: Nome do Projeto](#)
+**Tecnologias usadas**: React, TypeScript, Bootstrap  
+Descrição breve do projeto: Como este projeto resolve um problema real e os desafios técnicos superados.
 
-### `npm test`
+### 🛒 [Projeto 2: Nome do Projeto](#)
+**Tecnologias usadas**: PHP, MySQL, JavaScript  
+Descrição breve do projeto: Como você integrou diferentes tecnologias para criar uma solução eficaz.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📱 [Projeto 3: Nome do Projeto](#)
+**Tecnologias usadas**: React Native, Expo  
+Descrição breve do projeto: Uma visão geral de como você trouxe inovação e uma experiência mobile de alta qualidade.
 
-### `npm run build`
+## ✨ Diferenciais
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Inovação Constante**: Cada projeto é uma oportunidade de criar algo novo e empolgante.
+- **Foco no Usuário**: Interfaces intuitivas e acessíveis são essenciais para o sucesso.
+- **Detalhes Importam**: Prezo por código limpo, desempenho e design elegante.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📞 Vamos Conversar?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Está procurando alguém que possa transformar suas ideias em realidade? Estou sempre aberto a novas colaborações e projetos desafiadores.
 
-### `npm run eject`
+- **Email**: [mako@example.com](mailto:mako@example.com)
+- **LinkedIn**: [linkedin.com/in/mako](#)
+- **GitHub**: [github.com/mako](#)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**"Cada linha de código conta uma história, e a minha está apenas começando."**
