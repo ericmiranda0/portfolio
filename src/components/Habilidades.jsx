@@ -3,44 +3,30 @@ import "./Habilidades.css";
 
 const grupos = [
   {
-    icon: "⚖️",
-    titulo: "Áreas Jurídicas",
+    icon: "🖧",
+    titulo: "Redes & Infraestrutura",
     tags: [
-      "Direito Previdenciário",
-      "Direito Civil",
-      "Direito Penal",
-      "Direito Constitucional",
-      "Direito do Trabalho",
-      "Direitos Humanos",
+      "Redes de Computadores",
+      "Firewall",
+      "Servidores",
+      "Infraestrutura de TI",
+      "Monitoramento de Rede",
     ],
   },
   {
-    icon: "🧠",
-    titulo: "Habilidades Profissionais",
+    icon: "💻",
+    titulo: "Ferramentas & Software",
     tags: [
-      "Pesquisa Jurídica",
-      "Redação Jurídica",
-      "Análise de Processos",
-      "Hermenêutica",
-      "Argumentação",
-      "Ética Profissional",
-    ],
-  },
-  {
-    icon: "🛠️",
-    titulo: "Ferramentas & Tecnologia",
-    tags: [
-      "Microsoft Office",
-      "Sistemas Jurídicos",
-      "Pesquisa Jurisprudencial",
-      "Plataformas INSS",
-      "Internet Jurídica",
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Microsoft PowerPoint",
+      "Pacote Office",
     ],
   },
   {
     icon: "🌐",
     titulo: "Idiomas",
-    tags: ["Português — Nativo", "Inglês — Básico", "LIBRAS — em formação"],
+    tags: ["Português — Nativo", "Inglês — Básico", "LIBRAS — Em formação"],
   },
 ];
 
