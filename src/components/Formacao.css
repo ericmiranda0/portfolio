@@ -1,0 +1,170 @@
+/* ===== FORMAÇÃO ===== */
+.formacao {
+  background-color: var(--navy);
+}
+
+/* Cards principais */
+.formacao-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.formacao-card {
+  background: var(--navy-light);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-top: 3px solid var(--gold);
+  border-radius: 4px;
+  padding: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.formacao-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.formacao-card-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.formacao-card h3 {
+  font-size: 1rem;
+  color: var(--gold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.formacao-card .inst {
+  font-size: 1.05rem;
+  color: var(--cream);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.formacao-card .periodo {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.formacao-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+
+/* Histórico por semestre */
+.historico-title {
+  font-size: 1.1rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.historico-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(201, 168, 76, 0.2);
+}
+
+.semestres-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2rem;
+}
+
+.semestre-card {
+  background: var(--navy-light);
+  border: 1px solid rgba(201, 168, 76, 0.1);
+  border-radius: 4px;
+  padding: 1.2rem 1.5rem;
+}
+
+.semestre-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.semestre-label {
+  font-size: 0.8rem;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.semestre-media {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.disciplinas-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.disciplinas-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0;
+  font-size: 0.85rem;
+  color: var(--cream-dark);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.disciplinas-list li:last-child {
+  border-bottom: none;
+}
+
+.disc-nota {
+  font-weight: 700;
+  color: var(--gold-light);
+  min-width: 35px;
+  text-align: right;
+}
+
+.disc-nota.perfeito {
+  color: #7fca9e;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .formacao-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .semestres-grid {
+    grid-template-columns: 1fr;
+  }
+}

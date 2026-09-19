@@ -1,50 +1,176 @@
-body,
-html {
+/* ===== VARIÁVEIS GLOBAIS ===== */
+:root {
+  --navy: #0a1628;
+  --navy-light: #152238;
+  --navy-mid: #1e3a5f;
+  --gold: #c9a84c;
+  --gold-light: #e2c47a;
+  --cream: #f8f4ef;
+  --cream-dark: #e8ddd0;
+  --text-light: #f0ebe4;
+  --text-muted: #9aabb8;
+  --section-padding: 90px 0;
+}
+
+/* ===== RESET ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
 }
-.bg {
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--navy);
+  color: var(--text-light);
+  font-family: "Aeonik", "Segoe UI", sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ===== TIPOGRAFIA ===== */
+h1, h2, h3, h4 {
+  font-family: "Aeonik", "Georgia", serif;
+  letter-spacing: 0.03em;
+}
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--gold-light);
+}
+
+/* ===== SEÇÕES ===== */
+section {
+  padding: var(--section-padding);
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../src/assets/img/Claude-Joseph_Vernet_-_A_Storm_on_a_Mediterranean_Coast_-_Google_Art_Project\ 1.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden; /* Garantir que nada saia dos limites da body */
 }
 
-.container {
-  margin-top: 100px;
-  height: 500px;
-
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-}
-.containe {
-  display: flex;
-  justify-content: center;
+section:nth-child(even) {
+  background-color: var(--navy-light);
 }
 
-.icon-redes {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centraliza os ícones verticalmente */
-  justify-content: center; /* Centraliza os ícones horizontalmente */
-  height: 100%; /* Ocupa toda a altura da coluna */
+.section-title {
+  font-size: 2rem;
+  color: var(--gold);
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
-.main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+  letter-spacing: 0.05em;
 }
-@media (max-width: 992px) {
-  .main {
-    text-align: center;
+
+.section-divider {
+  width: 60px;
+  height: 3px;
+  background: var(--gold);
+  margin: 0.6rem 0 2.5rem 0;
+  border-radius: 2px;
+}
+
+/* ===== UTILITÁRIOS ===== */
+.container-custom {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(201, 168, 76, 0.15);
+  color: var(--gold);
+  border: 1px solid rgba(201, 168, 76, 0.4);
+  border-radius: 20px;
+  padding: 0.25rem 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  margin: 0.2rem;
+}
+
+.btn-primary-custom {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.85rem 2rem;
+  border-radius: 3px;
+  border: 2px solid var(--gold);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary-custom:hover {
+  background: transparent;
+  color: var(--gold);
+}
+
+.btn-outline-custom {
+  display: inline-block;
+  background: transparent;
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.85rem 2rem;
+  border-radius: 3px;
+  border: 2px solid var(--gold);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.btn-outline-custom:hover {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 3px;
+}
+
+/* ===== RESPONSIVIDADE BASE ===== */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .btn-outline-custom {
+    margin-left: 0;
+    margin-top: 1rem;
   }
 }
